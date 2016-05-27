@@ -4,7 +4,7 @@ import (
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/engine/standard"
 
-	"github.com/nvhbk16k53/handler"
+	"github.com/nvhbk16k53/charging/handler"
 )
 
 func main() {
