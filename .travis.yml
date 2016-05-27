@@ -1,0 +1,10 @@
+language: go
+
+go:
+        - 1.6
+install:
+        - go get -u github.com/labstack/echo/...
+        - go get -u gopkg.in/mgo.v2
+        - go get -u github.com/satori/go.uuid
+        - go get -u github.com/kisielk/errcheck
+        - go get -u github.com/golang/lint/golint
